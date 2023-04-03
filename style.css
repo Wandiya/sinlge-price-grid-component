@@ -1,16 +1,20 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body{
-   font-size: 16px;
+body {
+    font-size: 16px;
 }
+
+
 /* Main Styles */
 
+
 /* Article Styles */
-.about{
+
+.about {
     background-image: url(images/bg-pattern-intro-left-mobile.svg);
     background-repeat: no-repeat;
     background-position: left 0% top 0%;
@@ -24,20 +28,20 @@ body{
     color: white;
 }
 
-.about h1{
+.about h1 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     font-size: 3rem;
     padding-inline: 1.3rem;
 }
 
-.about p{
+.about p {
     padding-inline: 1.7rem;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
 }
 
-.about button{
+.about button {
     color: white;
     text-transform: uppercase;
     margin-block-start: 1rem;
@@ -46,7 +50,7 @@ body{
     background-color: hsl(256, 26%, 20%);
 }
 
-.about button:hover{
+.about button:hover {
     color: black;
     background-color: white;
 }
@@ -62,14 +66,15 @@ body{
     height: 330px;
 }
 
+
 /* Aside Styles */
 
-aside{
+aside {
     padding-block-start: 10rem;
     padding-block-end: 8rem;
 }
 
-aside h1{
+aside h1 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     font-size: 3rem;
@@ -77,7 +82,7 @@ aside h1{
     padding-bottom: 5rem;
 }
 
-aside .info{
+aside .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,23 +90,23 @@ aside .info{
     padding-inline: 1.7rem;
 }
 
-aside .info .wrap{
+aside .info .wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-aside .info .wrap img{
+aside .info .wrap img {
     margin-top: 2rem;
 }
 
-aside .info .wrap h2{
+aside .info .wrap h2 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     padding-block-start: 2.5rem;
 }
 
-aside .info .wrap p{
+aside .info .wrap p {
     padding-block-start: 1rem;
     text-align: center;
     color: hsla(0, 2%, 47%, 0.479);
@@ -109,7 +114,7 @@ aside .info .wrap p{
     font-weight: 400;
 }
 
-aside .work{
+aside .work {
     background-image: url(images/bg-pattern-how-we-work-mobile.svg);
     background-repeat: no-repeat;
     background-position: top 0 right 0;
@@ -124,7 +129,7 @@ aside .work{
     margin-block-end: 1rem;
 }
 
-aside .work h2{
+aside .work h2 {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     font-size: 2.5rem;
@@ -133,7 +138,7 @@ aside .work h2{
     line-height: 2.6rem;
 }
 
-aside .work button{
+aside .work button {
     background-color: hsl(256, 26%, 20%);
     color: white;
     border: 2px solid white;
@@ -141,21 +146,22 @@ aside .work button{
     padding: 0.7rem 1.7rem;
 }
 
-aside .work button:hover{
+aside .work button:hover {
     color: black;
     background-color: white;
 }
 
+
 /* Footer Styles */
 
-footer{
+footer {
     background-color: hsl(0, 0%, 98%);
     background-image: url(images/bg-pattern-footer-mobile.svg);
     background-repeat: no-repeat;
     padding-block-end: 4rem;
 }
 
-.clogo{
+.clogo {
     padding-block-start: 6rem;
     display: flex;
     flex-direction: column;
@@ -163,7 +169,7 @@ footer{
     justify-content: center;
 }
 
-.clogo ul.socials{
+.clogo ul.socials {
     border-bottom: 1px solid hsla(0, 2%, 47%, 0.479);
     padding: 0%;
     padding: 0rem 5rem 2rem 5rem;
@@ -173,11 +179,11 @@ footer{
     justify-content: space-between;
 }
 
-.clogo ul.socials li img{
+.clogo ul.socials li img {
     padding-inline: 0.5rem;
 }
 
-.faq{
+.faq {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -188,7 +194,7 @@ footer{
     justify-content: center;
 }
 
-.faq .contacts h4{
+.faq .contacts h4 {
     padding-block-end: 1rem;
     letter-spacing: 1px;
     font-size: 16px;
@@ -196,22 +202,23 @@ footer{
     color: hsla(0, 4%, 26%, 0.233);
 }
 
-.faq .contacts ul{
+.faq .contacts ul {
     padding: 0%;
     list-style: none;
 }
 
-.faq .contacts ul li{
+.faq .contacts ul li {
     padding-block: 0.2rem;
 }
 
+
 /* Edited Bootsrap Styles */
 
-.feel ul{
+.feel ul {
     display: none;
 }
 
-.collapse{
+.collapse {
     background-color: hsl(256, 26%, 20%);
     background-image: url(./images/bg-pattern-mobile-nav.svg);
     background-repeat: no-repeat;
@@ -220,11 +227,11 @@ footer{
     padding-bottom: 20rem;
 }
 
-.bg-dark{
-    --bs-bg-opacity:0;
+.bg-dark {
+    --bs-bg-opacity: 0;
 }
 
-.text-white{
+.text-white {
     padding-block: 1rem;
     cursor: pointer;
     text-align: center;
@@ -233,22 +240,23 @@ footer{
     text-transform: uppercase;
 }
 
-.text-white li{
+.text-white li {
     padding-block: 0.8rem;
 }
 
-.text-white li.plan{
+.text-white li.plan {
     border: 2px solid white;
 }
+
 
 /* Desktop Styles */
 
 @media screen and (min-width: 624px) {
     /* Navabar Styles */
-    .navbar-toggler{
+    .navbar-toggler {
         display: none;
     }
-    .feel ul{
+    .feel ul {
         font-family: 'Karla', sans-serif;
         text-transform: uppercase;
         margin: 0.5rem;
@@ -257,96 +265,86 @@ footer{
         align-items: center;
         list-style: none;
     }
-    .feel ul li{
+    .feel ul li {
         color: hsla(0, 4%, 26%, 0.233);
         padding-inline: 0.7rem;
         cursor: pointer;
     }
-    .feel ul li:hover{
+    .feel ul li:hover {
         color: black;
     }
-    .feel ul li.plan{
+    .feel ul li.plan {
         padding: 0.3rem 1.5rem;
         border: 2px solid hsl(256, 26%, 20%);
     }
-    .feel ul li.plan:hover{
+    .feel ul li.plan:hover {
         color: white;
         background-color: hsl(256, 26%, 20%);
     }
-
     /* Main Styles */
-
     /* Article Styles */
-    article .lee{
+    article .lee {
         display: flex;
         justify-content: space-around;
         background-color: hsl(256, 26%, 20%);
         padding: 8rem;
     }
-    article .lee .about{
+    article .lee .about {
         display: inline-block;
         text-align: left;
         order: -1;
         background-size: 0%;
     }
-    article .lee .about h1{
+    article .lee .about h1 {
         text-align: left;
     }
-    article .lee .about h1 span{
+    article .lee .about h1 span {
         text-align: left;
     }
-    article .lee .about h1 span.it{
+    article .lee .about h1 span.it {
         padding-block-start: 5rem;
         border-top: 1px solid hsla(0, 0%, 98%);
     }
-    article .lee .about button{
+    article .lee .about button {
         margin-block-start: 2rem;
         margin-inline-start: 1.6rem;
     }
     /* Aside Styles */
-
-    aside{
+    aside {
         margin-inline: 5rem;
     }
-
-    aside h1{
+    aside h1 {
         text-align: left;
         padding-inline-start: 4rem;
     }
-
-    aside h1 span{
+    aside h1 span {
         border-top: 1px solid hsla(0, 2%, 47%, 0.479);
         padding-top: 3rem;
     }
-
-    aside .info{
+    aside .info {
         flex-direction: row;
         justify-content: space-around;
     }
-
-    aside .info .wrap{
+    aside .info .wrap {
         display: block;
         align-self: center;
         padding-inline: 1.9rem;
     }
-
-    aside .info .wrap p{
+    aside .info .wrap p {
         text-align: left;
     }
-
-    aside .work{
+    aside .work {
         padding-inline: 5rem;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         background-image: url(images/bg-pattern-how-we-work-desktop.svg);
     }
-
-    aside .work h2{
+    aside .work h2 {
         line-height: 3rem;
         text-align: left;
     }
-    .graphic-left{
+    .graphic-left {
         background-image: url(images/bg-pattern-intro-left-desktop.svg);
         background-repeat: no-repeat;
         top: 800px;
@@ -355,7 +353,7 @@ footer{
         width: 380px;
         height: 900px;
     }
-    .graphic-right{
+    .graphic-right {
         background-image: url(images/bg-pattern-intro-right-desktop.svg);
         background-repeat: no-repeat;
         top: 70px;
@@ -365,30 +363,30 @@ footer{
         height: 900px;
     }
     /* Footer Styles */
-    footer{
+    footer {
         padding-inline: 6.6rem;
         background-image: url(images/bg-pattern-footer-desktop.svg);
         background-repeat: no-repeat;
     }
-    .clogo{
+    .clogo {
         flex-direction: row;
         justify-content: space-between;
         border-bottom: 1px solid hsla(0, 2%, 47%, 0.479);
         padding-block-start: 1rem;
-        
     }
-    .clogo ul.socials{
+    .clogo ul.socials {
         border-bottom: none;
         padding: 0% 0% 1rem 0%;
     }
-    .faq{
+    .faq {
         flex-direction: row;
         justify-content: space-between;
     }
-    .faq .contacts h4{
+    .faq .contacts h4 {
         padding-top: 3rem;
     }
-    .faq .contacts ul, .faq .contacts h4{
+    .faq .contacts ul,
+    .faq .contacts h4 {
         text-align: left;
     }
 }
